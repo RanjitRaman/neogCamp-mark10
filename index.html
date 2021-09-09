@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center">Cash Register</h1>
+
+      <label>Bill amount</label>
+      <input type="text" id="bill-amount" />
+
+      <label>Cash Given</label>
+      <input type="text" id="cash-amount" />
+      <button id="calculate-button">Check Balance</button>
+      <p id="message"></p>
+      <table id="table-content">
+        <tr>
+          <th>No of Notes</th>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+          <td class="notes-change"></td>
+        </tr>
+        <tr>
+          <th>Denomiation</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>200</td>
+          <td>100</td>
+          <td>50</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>2</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="App.js"></script>
+</html>
